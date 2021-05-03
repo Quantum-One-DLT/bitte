@@ -9,7 +9,7 @@
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     inclusive.url = "github:input-output-hk/nix-inclusive";
     utils.url = "github:numtide/flake-utils";
-    bitte-cli.url = "github:input-output-hk/bitte-cli";
+    bitte-cli.url = "github:input-output-hk/bitte-cli/periodic";
     nix.url = "github:NixOS/nix?rev=b19aec7eeb8353be6c59b2967a511a5072612d99";
     ops-lib = {
       url = "github:input-output-hk/ops-lib";
