@@ -423,7 +423,7 @@ let
     options = {
       organization = mkOption {
         type = str;
-        default = "IOHK";
+        default = "TBCO";
       };
 
       commonName = mkOption {

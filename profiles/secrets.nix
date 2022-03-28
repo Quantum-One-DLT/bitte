@@ -11,7 +11,7 @@ let
   isInstance = config.instance != null;
 
   names = [{
-    O = "IOHK";
+    O = "TBCO";
     C = "JP";
     ST = "Kantō";
     L = "Tokyo";
