@@ -2,8 +2,8 @@
   services.oauth2_proxy = {
     enable = true;
     extraConfig.whitelist-domain = ".${config.cluster.domain}";
-    # extraConfig.github-org = "input-output-hk";
-    # extraConfig.github-repo = "input-output-hk/mantis-ops";
+    # extraConfig.github-org = "The-Blockchain-Company";
+    # extraConfig.github-repo = "The-Blockchain-Company/mantis-ops";
     # extraConfig.github-user = "manveru,johnalotoski";
     extraConfig.pass-user-headers = "true";
     extraConfig.set-xauthrequest = "true";
@@ -11,7 +11,7 @@
     provider = "google";
     keyFile = "/run/keys/oauth-secrets";
 
-    email.domains = [ "iohk.io" ];
+    email.domains = [ "blockchain-company.io" ];
     cookie.domain = ".${config.cluster.domain}";
   };
 

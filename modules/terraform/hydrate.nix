@@ -9,7 +9,7 @@
 let
   inherit (terralib) regions awsProviderNameFor awsProviderFor;
 
-  vbkStub = "https://vbk.infra.aws.iohkdev.io/state/${config.cluster.name}";
+  vbkStub = "https://vbk.infra.aws.blockchain-company.io.io/state/${config.cluster.name}";
 
 in {
 

@@ -70,13 +70,13 @@
       "locked": {
         "lastModified": 1638573540,
         "narHash": "sha256-453WPHlOfSwKFphZnGOrqwssq2Ucd1b36W7fx+nLdBM=",
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "bitte-cli",
         "rev": "ffc77d655b3f7c1dab459193822482317a7ea1a1",
         "type": "github"
       },
       "original": {
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "bitte-cli",
         "type": "github"
       }
@@ -95,13 +95,13 @@
       "locked": {
         "lastModified": 1638318651,
         "narHash": "sha256-YsYBMa8Chtb6ccGZOVStReiZ33ZNmi7kNPLf/Ua2kY8=",
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "deploy-rs",
         "rev": "1d3a4f4681a98479219c628165bb6b3a12eae843",
         "type": "github"
       },
       "original": {
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "deploy-rs",
         "type": "github"
       }
@@ -217,13 +217,13 @@
       "locked": {
         "lastModified": 1628098927,
         "narHash": "sha256-Ft4sdf7VPL8MQtu18AAPiN2s5pUsbv+3RxqzJSa/yzg=",
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "nix-inclusive",
         "rev": "13123eb7a8c3359738a4756b8d645729e8655b27",
         "type": "github"
       },
       "original": {
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "nix-inclusive",
         "type": "github"
       }
@@ -244,13 +244,13 @@
       "locked": {
         "lastModified": 1637600654,
         "narHash": "sha256-Ievz484PIlmZIgroJGmiHLWh1nSZKJ53PsmEum6HPfk=",
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "bitte-iogo",
         "rev": "efc2d9b85cc4009dd46491c90459289e1e14115d",
         "type": "github"
       },
       "original": {
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "bitte-iogo",
         "type": "github"
       }
@@ -400,13 +400,13 @@
       "locked": {
         "lastModified": 1635508179,
         "narHash": "sha256-GaiZxxdJPz5yJJ0zB7jg6wgX5uS8DvpNYZDKXhmTtL0=",
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "nomad",
         "rev": "ed74269c8edc8b8de79be0a2dfc199bdae4e715d",
         "type": "github"
       },
       "original": {
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "ref": "release-1.1.6",
         "repo": "nomad",
         "type": "github"
@@ -417,13 +417,13 @@
       "locked": {
         "lastModified": 1637750711,
         "narHash": "sha256-Il/cWznjosBV8bWP9aeDfpLfT6K1jjXdi72hWazBK68=",
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "ops-lib",
         "rev": "20646de3e33cd46780418c64ba7c99d8d3547653",
         "type": "github"
       },
       "original": {
-        "owner": "input-output-hk",
+        "owner": "The-Blockchain-Company",
         "repo": "ops-lib",
         "type": "github"
       }

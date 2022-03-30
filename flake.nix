@@ -22,12 +22,12 @@
 
     fenix.url = "github:nix-community/fenix";
 
-    cli.url = "github:input-output-hk/bitte-cli";
+    cli.url = "github:The-Blockchain-Company/bitte-cli";
     cli.inputs.fenix.follows = "fenix";
     cli.inputs.nixpkgs.follows = "nixpkgs-auxiliary";
     cli.inputs.nix.follows = "nix-auxiliary";
 
-    deploy.url = "github:input-output-hk/deploy-rs";
+    deploy.url = "github:The-Blockchain-Company/deploy-rs";
     deploy.inputs.fenix.follows = "fenix";
     deploy.inputs.nixpkgs.follows = "nixpkgs-auxiliary";
 
@@ -38,11 +38,11 @@
     blank.url = "github:divnix/blank";
 
     ops-lib = {
-      url = "github:input-output-hk/ops-lib";
+      url = "github:The-Blockchain-Company/ops-lib";
       flake = false;
     };
     nomad-source = {
-      url = "github:input-output-hk/nomad/release-1.1.6";
+      url = "github:The-Blockchain-Company/nomad/release-1.1.6";
       flake = false;
     };
     vulnix = {

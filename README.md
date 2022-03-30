@@ -31,7 +31,7 @@ The Terraform configuration can be found under modules/terraform and each file
 specifies a Terraform workspace.
 
 To help manage this complexity, we also provide the
-[bitte-cli](https://github.com/input-output-hk/bitte-cli) tool. Please note that
+[bitte-cli](https://github.com/The-Blockchain-Company/bitte-cli) tool. Please note that
 this is still under heavy development and the CLI options may break in newer
 versions.
 

@@ -6,9 +6,9 @@
 
   imports = [ ./slim.nix ];
   nix.package = pkgs.nixUnstable;
-  nix.binaryCaches = [ "https://hydra.iohk.io" ];
+  nix.binaryCaches = [ "https://hydra.blockchain-company.io" ];
   nix.binaryCachePublicKeys =
-    [ "hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=" ];
+    [ "hydra.blockchain-company.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=" ];
 
   nix.nixPath =
     [ "nixpkgs=${pkgs.path}" "nixos-config=/etc/nixos/configuration.nix" ];

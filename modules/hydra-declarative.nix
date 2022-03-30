@@ -32,7 +32,7 @@ let
 
       homepage = mkOption {
         type = str;
-        default = "https://github.com/input-output-hk/${name}";
+        default = "https://github.com/The-Blockchain-Company/${name}";
       };
 
       owner = mkOption { type = enum (attrNames config.services.hydra.users); };

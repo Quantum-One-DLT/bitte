@@ -63,11 +63,11 @@ let
           experimental-features = nix-command flakes ca-references
         ''';
         binaryCaches = [
-          "https://hydra.iohk.io"
+          "https://hydra.blockchain-company.io"
           "${cfg.s3Cache}"
         ];
         binaryCachePublicKeys = [
-          "hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ="
+          "hydra.blockchain-company.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ="
           "${cfg.s3CachePubKey}"
         ];
       };
@@ -851,7 +851,7 @@ in {
       default = { };
       type = attrsOf (submodule ({ name, ... }@this: {
         options = let
-          backend = "https://vault.infra.aws.iohkdev.io/v1";
+          backend = "https://vault.infra.aws.blockchain-company.io.io/v1";
           copy = ''
             export PATH="${
               lib.makeBinPath [ pkgs.coreutils pkgs.terraform-with-plugins ]

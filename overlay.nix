@@ -75,7 +75,7 @@ in final: prev:
   '';
 
   uploadBaseAMIs = final.writeBashBinChecked
-    "upload-base-amis-to-development-profile-iohk-amis-bucket" ''
+    "upload-base-amis-to-development-profile-tbco-amis-bucket" ''
       export AWS_PROFILE="development"
 
       export home_region=eu-central-1
@@ -130,7 +130,7 @@ in final: prev:
       ${checks}
     '';
 
-  # We will start using input-output-hk/cicero, soon
+  # We will start using The-Blockchain-Company/cicero, soon
   mkRequired = constituents:
     let
       build-version = final.writeText "version.json" (builtins.toJSON {
@@ -143,7 +143,7 @@ in final: prev:
       meta.description = "All required derivations";
     };
 
-  # We will start using input-output-hk/cicero, soon
+  # We will start using The-Blockchain-Company/cicero, soon
   hydra-unstable = prev.hydra-unstable.overrideAttrs (oldAttrs: {
     patches = (oldAttrs.patches or [ ]) ++ [
       # allow evaluator_restrict_eval to be configured

@@ -55,7 +55,7 @@ in {
       certs.routing = lib.mkIf (nodeName == "routing") {
         dnsProvider = "route53";
         dnsResolver = "1.1.1.1:53";
-        email = "devops@iohk.io";
+        email = "devops@blockchain-company.io";
         domain = config.cluster.domain;
         credentialsFile = builtins.toFile "nothing" "";
         extraDomainNames = [ "*.${config.cluster.domain}" ]

@@ -10,7 +10,7 @@ in {
   tf.hydrate.configuration = {
 
     resource.vault_github_auth_backend.employee = {
-      organization = "input-output-hk";
+      organization = "The-Blockchain-Company";
       path = "github-employees";
     };
 
